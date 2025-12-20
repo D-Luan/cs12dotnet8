@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJETOS\\cs12dotnet8\\Chapter01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95452C04-CD1F-43AE-9A08-579FA1C4787F}|HelloCS\\HelloCS.csproj|c:\\projetos\\cs12dotnet8\\chapter01\\hellocs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95452C04-CD1F-43AE-9A08-579FA1C4787F}|HelloCS\\HelloCS.csproj|solutionrelative:hellocs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD11557-B17D-4C6B-825E-3689DA9D5B9F}|AboutMyEnvironment\\AboutMyEnvironment.csproj|c:\\projetos\\cs12dotnet8\\chapter01\\aboutmyenvironment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD11557-B17D-4C6B-825E-3689DA9D5B9F}|AboutMyEnvironment\\AboutMyEnvironment.csproj|solutionrelative:aboutmyenvironment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROJETOS\\cs12dotnet8\\Chapter01\\AboutMyEnvironment\\Program.cs",
+              "RelativeDocumentMoniker": "AboutMyEnvironment\\Program.cs",
+              "ToolTip": "C:\\PROJETOS\\cs12dotnet8\\Chapter01\\AboutMyEnvironment\\Program.cs*",
+              "RelativeToolTip": "AboutMyEnvironment\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T04:38:27.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROJETOS\\cs12dotnet8\\Chapter01\\HelloCS\\Program.cs",
+              "RelativeDocumentMoniker": "HelloCS\\Program.cs",
+              "ToolTip": "C:\\PROJETOS\\cs12dotnet8\\Chapter01\\HelloCS\\Program.cs*",
+              "RelativeToolTip": "HelloCS\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T04:58:10.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
