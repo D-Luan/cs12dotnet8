@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "PeopleApp\Peop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibraryModern", "PacktLibraryModern\PacktLibraryModern.csproj", "{7F39C8A6-96F5-4A64-924D-2DD149858D1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exerc5.2Car", "Exerc5.2Car\Exerc5.2Car.csproj", "{40167DAE-BBC1-4ADA-AF52-4EA5097B27F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exer5.2CarApp", "Exer5.2CarApp\Exer5.2CarApp.csproj", "{971C5EC5-FC0F-4AA8-A802-EC6BFCA6DDC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{7F39C8A6-96F5-4A64-924D-2DD149858D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F39C8A6-96F5-4A64-924D-2DD149858D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F39C8A6-96F5-4A64-924D-2DD149858D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40167DAE-BBC1-4ADA-AF52-4EA5097B27F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40167DAE-BBC1-4ADA-AF52-4EA5097B27F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40167DAE-BBC1-4ADA-AF52-4EA5097B27F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40167DAE-BBC1-4ADA-AF52-4EA5097B27F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971C5EC5-FC0F-4AA8-A802-EC6BFCA6DDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971C5EC5-FC0F-4AA8-A802-EC6BFCA6DDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971C5EC5-FC0F-4AA8-A802-EC6BFCA6DDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971C5EC5-FC0F-4AA8-A802-EC6BFCA6DDC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
