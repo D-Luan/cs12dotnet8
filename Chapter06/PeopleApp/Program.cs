@@ -16,7 +16,18 @@ Person zillah = new() { Name = "Zillah" };
 
 lamech.Marry(adah);
 
-Person.Marry(lamech, zillah);
+//Person.Marry(lamech, zillah);
+
+if (lamech + zillah)
+{
+    WriteLine($"{lamech.Name} and {zillah.Name} sucessfully got married.");
+}
+
+Person baby3 = lamech * adah;
+baby3.Name = "Jubal";
+
+Person baby4 = zillah * lamech;
+baby4.Name = "Naamah";
 
 lamech.OutputSpouses();
 adah.OutputSpouses();
