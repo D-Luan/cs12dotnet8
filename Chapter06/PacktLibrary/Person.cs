@@ -14,6 +14,24 @@ public class Person : IComparable<Person?>
 
     #region Methods
 
+    public void TimeTravel(DateTime when)
+    {
+        if (when <= Born)
+        {
+            throw new PersonException("if you travel back in time to a date" +
+                "earlier than your own birth, then the universe will explode!");
+        }
+        else
+        {
+            WriteLine($"Welcome to {when:yyyy}!");
+        }
+    }
+
+    public override string ToString()
+    {
+        return $"{Name} is a {base.ToString()}";
+    }
+
     /// <summary>
     /// 
     /// </summary>

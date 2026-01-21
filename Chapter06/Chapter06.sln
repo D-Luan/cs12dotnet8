@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36717.8 d17.14
+VisualStudioVersion = 17.14.36717.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibrary", "PacktLibrary\PacktLibrary.csproj", "{F9CEBA52-D1BE-491D-9C1A-A88FBB88815F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "PeopleApp\PeopleApp.csproj", "{5418AC37-F5D6-413B-94F4-8B96D014A68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullHandling", "NullHandling\NullHandling.csproj", "{C50832B2-F4CB-4596-BC33-40380EA55566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex02Inheritance", "Ch06Ex02Inheritance\Ch06Ex02Inheritance.csproj", "{B252CE2F-A704-41FE-84D8-456562EDE100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{5418AC37-F5D6-413B-94F4-8B96D014A68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5418AC37-F5D6-413B-94F4-8B96D014A68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5418AC37-F5D6-413B-94F4-8B96D014A68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50832B2-F4CB-4596-BC33-40380EA55566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50832B2-F4CB-4596-BC33-40380EA55566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50832B2-F4CB-4596-BC33-40380EA55566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50832B2-F4CB-4596-BC33-40380EA55566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B252CE2F-A704-41FE-84D8-456562EDE100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B252CE2F-A704-41FE-84D8-456562EDE100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B252CE2F-A704-41FE-84D8-456562EDE100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B252CE2F-A704-41FE-84D8-456562EDE100}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
