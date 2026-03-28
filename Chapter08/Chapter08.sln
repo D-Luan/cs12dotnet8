@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{8AE192CC-2BEB-4E95-81FC-C06C09D12E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{0B315673-654E-4719-AF96-3783EF627650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRegularExpressions", "WorkingWithRegularExpressions\WorkingWithRegularExpressions.csproj", "{98A171E4-98F0-4F1E-A45F-E4EAD31F77B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "WorkingWithCollections\WorkingWithCollections.csproj", "{F3635DB2-6A20-4B27-9C62-0801A5F60D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRanges", "WorkingWithRanges\WorkingWithRanges.csproj", "{379E3CAD-8FAA-429D-AD2A-E88113400FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08Ex02RegularExpressions", "Ch08Ex02RegularExpressions\Ch08Ex02RegularExpressions.csproj", "{7CEEC805-1636-4328-A015-5E014BCE3908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AE192CC-2BEB-4E95-81FC-C06C09D12E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE192CC-2BEB-4E95-81FC-C06C09D12E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE192CC-2BEB-4E95-81FC-C06C09D12E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE192CC-2BEB-4E95-81FC-C06C09D12E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B315673-654E-4719-AF96-3783EF627650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B315673-654E-4719-AF96-3783EF627650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B315673-654E-4719-AF96-3783EF627650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B315673-654E-4719-AF96-3783EF627650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A171E4-98F0-4F1E-A45F-E4EAD31F77B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A171E4-98F0-4F1E-A45F-E4EAD31F77B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A171E4-98F0-4F1E-A45F-E4EAD31F77B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A171E4-98F0-4F1E-A45F-E4EAD31F77B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3635DB2-6A20-4B27-9C62-0801A5F60D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3635DB2-6A20-4B27-9C62-0801A5F60D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3635DB2-6A20-4B27-9C62-0801A5F60D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3635DB2-6A20-4B27-9C62-0801A5F60D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379E3CAD-8FAA-429D-AD2A-E88113400FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379E3CAD-8FAA-429D-AD2A-E88113400FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379E3CAD-8FAA-429D-AD2A-E88113400FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379E3CAD-8FAA-429D-AD2A-E88113400FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEEC805-1636-4328-A015-5E014BCE3908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEEC805-1636-4328-A015-5E014BCE3908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEEC805-1636-4328-A015-5E014BCE3908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEEC805-1636-4328-A015-5E014BCE3908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D792E55-A751-4519-B3EE-0AAA1497B15B}
+	EndGlobalSection
+EndGlobal
