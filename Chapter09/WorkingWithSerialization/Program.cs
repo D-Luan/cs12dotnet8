@@ -33,35 +33,35 @@ List<Person> people = new()
     }
 };
 
-SectionTitle("Serializing as XML");
+//SectionTitle("Serializing as XML");
 
-XmlSerializer xs = new(type: people.GetType());
+//XmlSerializer xs = new(type: people.GetType());
 
-string path = Combine(CurrentDirectory, "people.xml");
+//string path = Combine(CurrentDirectory, "people.xml");
 
-using (FileStream stream = File.Create(path))
-{
-    xs.Serialize(stream, people);
-}
+//using (FileStream stream = File.Create(path))
+//{
+//    xs.Serialize(stream, people);
+//}
 
-OutputFileInfo(path);
+//OutputFileInfo(path);
 
-SectionTitle("Deserializing XML files");
+//SectionTitle("Deserializing XML files");
 
-using (FileStream xmlLoad = File.Open(path, FileMode.Open))
-{
-    List<Person>? loadedPeople =
-        xs.Deserialize(xmlLoad) as List<Person>;
+//using (FileStream xmlLoad = File.Open(path, FileMode.Open))
+//{
+//    List<Person>? loadedPeople =
+//        xs.Deserialize(xmlLoad) as List<Person>;
 
-    if (loadedPeople is not null)
-    {
-        foreach (Person p in loadedPeople)
-        {
-            WriteLine("{0} has {1} children.",
-                p.LastName, p.Children?.Count ?? 0);
-        }
-    }
-}
+//    if (loadedPeople is not null)
+//    {
+//        foreach (Person p in loadedPeople)
+//        {
+//            WriteLine("{0} has {1} children.",
+//                p.LastName, p.Children?.Count ?? 0);
+//        }
+//    }
+//}
 
 SectionTitle("Serializing with JSON");
 
