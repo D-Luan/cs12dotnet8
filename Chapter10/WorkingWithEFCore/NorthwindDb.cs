@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace Northwind.EntityModels;
 
@@ -14,6 +15,15 @@ public class NorthwindDb : DbContext
         string connectionString = $"Data Source={path}";
         WriteLine($"Connection: {connectionString}");
         optionsBuilder.UseSqlite(connectionString);
+
+        optionsBuilder.LogTo(WriteLine, new[] { RelationalEventId.CommandExecuting })
+#if DEBUG
+            .EnableSensitiveDataLogging()
+            .EnableDetailedErrors()
+#endif
+;
+
+        optionsBuilder.UseLazyLoadingProxies();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -30,5 +40,8 @@ public class NorthwindDb : DbContext
                 .Property(product => product.Cost)
                 .HasConversion<double>();
         }
+
+        modelBuilder.Entity<Product>()
+            .HasQueryFilter(p => !p.Discontinued);
     }
 }
