@@ -17,6 +17,7 @@ public class NorthwindDb : DbContext
         optionsBuilder.UseSqlite(connectionString);
 
         optionsBuilder.LogTo(WriteLine, new[] { RelationalEventId.CommandExecuting })
+
 #if DEBUG
             .EnableSensitiveDataLogging()
             .EnableDetailedErrors()
