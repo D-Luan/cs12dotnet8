@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Northwind.DataContext.Sqlite/Northwind.DataContext.Sqlite.csproj" />
+  <Project Path="Northwind.EntityModels.Sqlite/Northwind.EntityModels.Sqlite.csproj" />
+</Solution>
