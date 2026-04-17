@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="Northwind.DataContext.Sqlite/Northwind.DataContext.Sqlite.csproj" />
   <Project Path="Northwind.EntityModels.Sqlite/Northwind.EntityModels.Sqlite.csproj" />
+  <Project Path="Northwind.UnitTests/Northwind.UnitTests.csproj" Id="6117346f-85be-4981-8062-5c1e95e7da37" />
+  <Project Path="Northwind.Web/Northwind.Web.csproj" Id="fb7b97e3-86ff-43cb-afaa-d715a0ec8ee6" />
 </Solution>
