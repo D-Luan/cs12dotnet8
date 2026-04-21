@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.Extensions.Caching.Memory;
 using Northwind.EntityModels;
 using Northwind.WebApi.Repositories;
 
@@ -16,7 +19,7 @@ public class CustomersController : ControllerBase
     }
 
     [HttpGet]
-    [ProducesResponseType(200, Type= typeof(IEnumerable<Customer>))]
+    [ProducesResponseType(200, Type = typeof(IEnumerable<Customer>))]
     public async Task<IEnumerable<Customer>> GetCustomers(string? country)
     {
         if (string.IsNullOrWhiteSpace(country))
@@ -97,6 +100,20 @@ public class CustomersController : ControllerBase
     [ProducesResponseType(404)]
     public async Task<IActionResult> Delete(string id)
     {
+        if (id == "bad")
+        {
+            ProblemDetails problemDetails = new()
+            {
+                Status = StatusCodes.Status400BadRequest,
+                Type = "https://localhost:5151/customers/failed-to-delete",
+                Title = $"Customer ID {id} found but failed to delete.",
+                Detail = "More details like Company Name, Country and so on.",
+                Instance = HttpContext.Request.Path
+            };
+
+            return BadRequest(problemDetails);
+        }
+
         Customer? existing = await _repo.RetrieveAsync(id);
         if (existing == null)
         {
